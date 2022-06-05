@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-7</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Note taking app</h1>
+        <input type="text" id="Note-Title" placeholder="Title of Note">
+        <input type="text" id="Note-body" placeholder="description">
+        <button class="addBTN">Add Note</button>
+    </div>
+
+    <div class="Note-list">
+        
+    </div>
+
+    <style>
+
+        .upper{
+            height: 60px;
+            color: red;
+            font-weight: bold;
+        }
+        .buttom{
+            height: auto;
+
+        }
+        .Note:hover{
+            height: 200px;
+            transition: 0.5s;
+        }
+        .addBTN{
+            width: 70px;
+            height: 40px;
+            background-color: red;
+            color: wheat;
+            border-radius: 10px;
+        }
+        .header{
+            
+            width: 600px;
+            height: 40px;
+            background-color: blanchedalmond;
+            margin: 30px auto;
+        }
+        .Note-list{
+            width: 100%;
+        }
+        .Note{
+            overflow: hidden;
+            margin-right: 5px;
+            width: 180px;
+            height: 60px;
+            margin-top: 100px;
+            border: 1px solid lightskyblue;
+            border-radius: 20px;
+            float: left;
+        }
+        .header #Note-Title{
+            width: 150px;
+            height: 45px;
+            border: 1px solid lightskyblue;
+            border-radius: 10px;
+        }
+        .header #Note-body{
+            width: 300px;
+            height: 45px;
+            border: 1px solid lightskyblue;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="index.js"></script>
+</body>
+</html>
